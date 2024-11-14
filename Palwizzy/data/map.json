@@ -1,0 +1,24 @@
+{
+    "start_state": "0,0",
+    "states": {
+        "0,0": {
+            "background_image": "assets/images/background1.jpg",
+            "transitions": {
+                "ArrowRight": "0,1",
+                "ArrowDown": "1,0"
+            }
+        },
+        "0,1": {
+            "background_image": "assets/images/background2.jpg",
+            "transitions": {
+                "ArrowLeft": "0,0"
+            }
+        },
+        "1,0": {
+            "background_image": "assets/images/background3.jpg",
+            "transitions": {
+                "ArrowUp": "0,0"
+            }
+        }
+    }
+}
